@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_stock"
+        android:icon="@drawable/stock"
+        android:title="Stock de Componentes"
+        />
+
+    <item android:id="@+id/nav_alert"
+        android:icon="@drawable/ic_alert"
+        android:title="Alertas"
+        />
+
+    <item android:id="@+id/nav_location_matrix"
+        android:icon="@drawable/location_matrix"
+        android:title="Ubicaciones"
+        />
+
+    <item android:id="@+id/nav_status"
+        android:icon="@drawable/ic_status"
+        android:title="Status"
+        />
+
+    <item android:id="@+id/nav_sug"
+        android:icon="@drawable/suggestions"
+        android:title="Sugerencias"
+        />
+
+    <item android:id="@+id/nav_logout"
+        android:icon="@drawable/baseline_call_missed_outgoing_black_24"
+        android:title="Log Out"
+        />
+</menu>

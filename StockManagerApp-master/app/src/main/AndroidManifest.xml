@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="iteda.cnea.StockManager">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Stock Control V2.0"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:theme="@style/Theme.AppCompat.Light">
+
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Registration"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".NewPass"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AccessToComp"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CompInfo"
+            android:parentActivityName=".Stock" />
+        <activity
+            android:name=".Stock"
+            android:parentActivityName=".AccessToComp" />
+        <activity
+            android:name=".Suggestions"
+            android:parentActivityName=".AccessToComp" />
+        <activity
+            android:name=".LocationMatrix"
+            android:parentActivityName=".AccessToComp" />
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENCENCIES"
+            android:value="barcode" />
+
+        <activity android:name=".status" />
+        <activity android:name=".Alert">
+        </activity>
+    </application>
+
+</manifest>

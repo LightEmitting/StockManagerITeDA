@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="title_activity_add">Add</string>
+
+    <string name="result_text_default">Focus the Digikey code of your component</string>
+    <string name="networkFailed" translatable="false">Network Request not reachable.</string>
+    <string name="title_activity_navigation_drawer" translatable="false">NavigationDrawer</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_lateral_menu">LateralMenu</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="PasswordReset">Password Reset</string>
+
+    <string name="Email">Email</string>
+
+    <string name="SendEmail">Send Email</string>
+
+    <string name="EmailCode">Enter the  Code</string>
+
+    <string name="Password">Password</string>
+
+    <string name="ConfirmPassword">Confirm Password</string>
+
+    <string name="ForgotPassword">Forgot Password?</string>
+
+    <string name="LogIn">Log In</string>
+
+    <string name="ChangePassword">Change Password</string>
+
+    <string name="Title">Stock Manager - ITeDA</string>
+
+    <string name="User">User</string>
+
+    <string name="SignUp">Sign Up</string>
+
+    <string name="PreRegistry">PreRegistry</string>
+
+    <string name="Familyname">Family name</string>
+
+    <string name="Name">Name</string>
+
+    <string name="A1">A1</string>
+    <string name="A2">A2</string>
+    <string name="A3">A3</string>
+    <string name="A4">A4</string>
+    <string name="A5">A5</string>
+    <string name="A6">A6</string>
+    <string name="A7">A7</string>
+    <string name="A8">A8</string>
+
+    <string name="B1">B1</string>
+    <string name="B2">B2</string>
+    <string name="B3">B3</string>
+    <string name="B4">B4</string>
+    <string name="B5">B5</string>
+    <string name="B6">B6</string>
+    <string name="B7">B7</string>
+    <string name="B8">B8</string>
+
+    <string name="C1">C1</string>
+    <string name="C2">C2</string>
+    <string name="C3">C3</string>
+    <string name="C4">C4</string>
+    <string name="C5">C5</string>
+    <string name="C6">C6</string>
+    <string name="C7">C7</string>
+    <string name="C8">C8</string>
+
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="t" translatable="false">You have selected Bookmark Menu</string>
+    <string name="Reset_Pass">Click in the link of your email</string>
+
+</resources>
