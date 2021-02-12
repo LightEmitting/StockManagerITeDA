@@ -1,0 +1,13 @@
+<?php
+//MySQL-ish server string
+define("SM_MYSQL_SERVER", "localhost");
+
+//Database username
+define("SM_MYSQL_USER", "root");
+
+//Database password
+define("SM_MYSQL_PASS", "");
+
+//Database name
+define("SM_MYSQL_DB", "Usuarios");
+>
